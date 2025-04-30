@@ -1,0 +1,47 @@
+ <!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Chatti By Slatheryc </title>
+    <meta name = "charset" charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "script.js"></script>
+    <script src= "socket.io/socket.io.js"></script>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cairo&family=Lobster&display=swap');
+</style>
+<link href="https://css.gg/css?=|arrow-right-o|arrow-up-r|code-slash|log-in|profile|user" rel="stylesheet">
+  </head>
+  <body onload = "onload()">
+    <div id = "Main" class = "hidden">
+      <audio id = "Ding" src = "Ding.mp3"> </audio>
+      <h1 id = "Title" class = "hidden"> Chatti </h1>
+      <h1 id = "ByNAME" class = "hidden"> By Slatheryc, basics by repl </h1>
+
+      <div id = "AccessPort" class = "hidden">
+        <label id = "NameLabel" class = "hidden">  Name  </label>
+        <input id = "NameInput" type = "text" class = "hidden">
+        <br><br>
+        <label id = "IDLabel" class = "hidden"> Room ID </label>
+        <input id = "IDInput" value = "Room1" type = "text" class = "hidden">
+        <input id = "ConnectButton" class = "Button" type = "submit" value = "Create/Join Room" onclick = "Connect()">
+      </div>
+      <h2 id = "RoomID"> Chatroom : None </h2>
+      <div id = "Chat">
+        <p id = "Message0" class = "Message"> - </p>
+        <p id = "Message1" class = "Message"> - </p>
+        <p id = "Message2" class = "Message"> - </p>
+        <p id = "Message3" class = "Message"> - </p>
+        <p id = "Message4" class = "Message"> - </p>
+        <p id = "Message5" class = "Message"> - </p>
+        <p id = "Message6" class = "Message"> - </p>
+        <p id = "Message7" class = "Message"> - </p>
+        <p id = "Message8" class = "Message"> - </p>
+        <p id = "Message9" class = "Message"> - </p>
+        <input id = "ComposedMessage" type = "text">
+        <input id = "SendMessage" onclick="Send()" class = "Button" type = "submit" value = "send">
+      </div>
+      <br><br>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+body{
+  background: #1303ff;
+  color: #303030;
+  font-family: 'Segoe UI';
+}
+
+label{
+  width: 5%;
+  display: inline-block;
+  text-align: right;
+}
+
+input{
+  background: #e5e5e5;
+  color: #303030;
+  font-size: 120%;
+  border: none;
+}
+
+.Message{
+  color: #a0a0a0;
+}
+
+#Main{
+  background: #a0a0a0;
+  border-radius: 1%;
+  padding-left: 1%;
+}
+
+#Title{
+  font-size: 500%;
+  color: aqua;
+  font-family: Barlow Condensed;
+}
+.Button{
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.Button:hover{
+  background-color: #d1cdcd;
+}
+#MessageLabel{
+  font-family: Cairo;
+  color: aqua;
+}
+#byNAME {
+  font-size: 100%;
+}
+#ComposedMessage{
+  border-radius: 2px;
+  width: 50%;
+  }
+#NameInput{
+  border-radius: 4px;
+}
+#IDInput{
+  border-radius: 4px;
+}
+#NameLabel{
+  font-family: Cairo;
+}
+#IDLabel{
+  font-family: Cairo;
+}
